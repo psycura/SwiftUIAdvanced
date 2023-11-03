@@ -7,18 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564EAB112ADA9CD60065DA4E /* CustomTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB102ADA9CD60065DA4E /* CustomTransitionBootcamp.swift */; };
+		564EAB132ADAA10A0065DA4E /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB122ADAA10A0065DA4E /* MatchedGeometryEffectBootcamp.swift */; };
+		564EAB152ADAA6660065DA4E /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB142ADAA6660065DA4E /* CustomShapesBootcamp.swift */; };
+		564EAB172ADAAC880065DA4E /* CustomShapesWithCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB162ADAAC870065DA4E /* CustomShapesWithCurves.swift */; };
+		564EAB192ADAB2E00065DA4E /* AnimatableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB182ADAB2E00065DA4E /* AnimatableDataBootcamp.swift */; };
+		564EAB1B2ADABBE70065DA4E /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EAB1A2ADABBE70065DA4E /* GenericsBootcamp.swift */; };
+		566BF0632ADD3F18002B0993 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BF0622ADD3F18002B0993 /* PreferenceKeyBootcamp.swift */; };
+		566BF0662ADD466A002B0993 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BF0652ADD466A002B0993 /* GeometryPreferenceKeyBootcamp.swift */; };
+		566BF0682ADD4F9E002B0993 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BF0672ADD4F9E002B0993 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
+		566BF06A2ADD5878002B0993 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BF0692ADD5878002B0993 /* AppTabBarView.swift */; };
+		566BF06D2ADD620A002B0993 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BF06C2ADD620A002B0993 /* CustomTabBarView.swift */; };
+		567078EC2ADED110006C18D9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567078EB2ADED110006C18D9 /* ProtocolsBootcamp.swift */; };
+		567078EE2ADED825006C18D9 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567078ED2ADED825006C18D9 /* DependencyInjectionBootcamp.swift */; };
 		567A55ED2ADA7E02004A3BBA /* SwiftUIAdvancedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A55EC2ADA7E02004A3BBA /* SwiftUIAdvancedApp.swift */; };
-		567A55EF2ADA7E02004A3BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A55EE2ADA7E02004A3BBA /* ContentView.swift */; };
 		567A55F12ADA7E05004A3BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A55F02ADA7E05004A3BBA /* Assets.xcassets */; };
 		567A55F42ADA7E05004A3BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A55F32ADA7E05004A3BBA /* Preview Assets.xcassets */; };
+		567A55FB2ADA7E59004A3BBA /* ViewModifiersBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A55FA2ADA7E59004A3BBA /* ViewModifiersBootcamp.swift */; };
+		567A55FD2ADA834F004A3BBA /* CustomButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A55FC2ADA834F004A3BBA /* CustomButtonStylesBootcamp.swift */; };
+		568FC7082ADD9D1F00380B29 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7072ADD9D1F00380B29 /* CustomTabBarContainerView.swift */; };
+		568FC70A2ADDA13500380B29 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7092ADDA13500380B29 /* TabBarItemsPreferenceKey.swift */; };
+		568FC70C2ADDA39C00380B29 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC70B2ADDA39C00380B29 /* TabBarItem.swift */; };
+		568FC7102ADE6E7D00380B29 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC70F2ADE6E7D00380B29 /* AppNavBarView.swift */; };
+		568FC7122ADE701C00380B29 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7112ADE701C00380B29 /* CustomNavBarView.swift */; };
+		568FC7142ADE724600380B29 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7132ADE724600380B29 /* CustomNavBarContainerView.swift */; };
+		568FC7162ADE73A500380B29 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7152ADE73A500380B29 /* CustomNavView.swift */; };
+		568FC7182ADE751700380B29 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7172ADE751700380B29 /* CustomNavLink.swift */; };
+		568FC71A2ADE782300380B29 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC7192ADE782300380B29 /* CustomNavBarPreferenceKeys.swift */; };
+		568FC71C2ADE872000380B29 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC71B2ADE872000380B29 /* UIViewRepresentableBootcamp.swift */; };
+		568FC71E2ADE926300380B29 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568FC71D2ADE926300380B29 /* UIViewControllerRepresentableBootcamp.swift */; };
+		56901BB82AE55B5C002F8DDC /* KeyPathBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56901BB72AE55B5C002F8DDC /* KeyPathBootcamp.swift */; };
+		569131BE2ADFD81800BCE179 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569131BD2ADFD81800BCE179 /* AdvancedCombineBootcamp.swift */; };
+		569131C02ADFEB5F00BCE179 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569131BF2ADFEB5F00BCE179 /* FuturesBootcamp.swift */; };
+		569131C52ADFF1DC00BCE179 /* CustomBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569131C42ADFF1DC00BCE179 /* CustomBindingBootcamp.swift */; };
+		569131C72AE012A900BCE179 /* ErrorAlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569131C62AE012A900BCE179 /* ErrorAlertBootcamp.swift */; };
+		56A77C232ADAC2E3007DEAFF /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A77C222ADAC2E3007DEAFF /* ViewBuilderBootcamp.swift */; };
+		56E0A01F2AEE5DE800D1DF1C /* PropertyWrappersBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0A01E2AEE5DE800D1DF1C /* PropertyWrappersBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564EAB102ADA9CD60065DA4E /* CustomTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionBootcamp.swift; sourceTree = "<group>"; };
+		564EAB122ADAA10A0065DA4E /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		564EAB142ADAA6660065DA4E /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
+		564EAB162ADAAC870065DA4E /* CustomShapesWithCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesWithCurves.swift; sourceTree = "<group>"; };
+		564EAB182ADAB2E00065DA4E /* AnimatableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootcamp.swift; sourceTree = "<group>"; };
+		564EAB1A2ADABBE70065DA4E /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		566BF0622ADD3F18002B0993 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		566BF0652ADD466A002B0993 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		566BF0672ADD4F9E002B0993 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		566BF0692ADD5878002B0993 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		566BF06C2ADD620A002B0993 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		567078EB2ADED110006C18D9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		567078ED2ADED825006C18D9 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		567A55E92ADA7E02004A3BBA /* SwiftUIAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567A55EC2ADA7E02004A3BBA /* SwiftUIAdvancedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedApp.swift; sourceTree = "<group>"; };
-		567A55EE2ADA7E02004A3BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		567A55F02ADA7E05004A3BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567A55F32ADA7E05004A3BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567A55FA2ADA7E59004A3BBA /* ViewModifiersBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersBootcamp.swift; sourceTree = "<group>"; };
+		567A55FC2ADA834F004A3BBA /* CustomButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStylesBootcamp.swift; sourceTree = "<group>"; };
+		568FC7072ADD9D1F00380B29 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		568FC7092ADDA13500380B29 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		568FC70B2ADDA39C00380B29 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		568FC70F2ADE6E7D00380B29 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		568FC7112ADE701C00380B29 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		568FC7132ADE724600380B29 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		568FC7152ADE73A500380B29 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		568FC7172ADE751700380B29 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		568FC7192ADE782300380B29 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
+		568FC71B2ADE872000380B29 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		568FC71D2ADE926300380B29 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		56901BB72AE55B5C002F8DDC /* KeyPathBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathBootcamp.swift; sourceTree = "<group>"; };
+		569131BD2ADFD81800BCE179 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
+		569131BF2ADFEB5F00BCE179 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
+		569131C42ADFF1DC00BCE179 /* CustomBindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingBootcamp.swift; sourceTree = "<group>"; };
+		569131C62AE012A900BCE179 /* ErrorAlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootcamp.swift; sourceTree = "<group>"; };
+		56A77C222ADAC2E3007DEAFF /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		56E0A01E2AEE5DE800D1DF1C /* PropertyWrappersBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +96,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		566BF0642ADD464B002B0993 /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				566BF0622ADD3F18002B0993 /* PreferenceKeyBootcamp.swift */,
+				566BF0652ADD466A002B0993 /* GeometryPreferenceKeyBootcamp.swift */,
+				566BF0672ADD4F9E002B0993 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
+			sourceTree = "<group>";
+		};
+		566BF06B2ADD58BF002B0993 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				566BF0692ADD5878002B0993 /* AppTabBarView.swift */,
+				566BF06C2ADD620A002B0993 /* CustomTabBarView.swift */,
+				568FC7072ADD9D1F00380B29 /* CustomTabBarContainerView.swift */,
+				568FC7092ADDA13500380B29 /* TabBarItemsPreferenceKey.swift */,
+				568FC70B2ADDA39C00380B29 /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		567A55E02ADA7E02004A3BBA = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +138,30 @@
 			isa = PBXGroup;
 			children = (
 				567A55EC2ADA7E02004A3BBA /* SwiftUIAdvancedApp.swift */,
-				567A55EE2ADA7E02004A3BBA /* ContentView.swift */,
 				567A55F02ADA7E05004A3BBA /* Assets.xcassets */,
 				567A55F22ADA7E05004A3BBA /* Preview Content */,
+				567A55FA2ADA7E59004A3BBA /* ViewModifiersBootcamp.swift */,
+				567A55FC2ADA834F004A3BBA /* CustomButtonStylesBootcamp.swift */,
+				564EAB102ADA9CD60065DA4E /* CustomTransitionBootcamp.swift */,
+				564EAB122ADAA10A0065DA4E /* MatchedGeometryEffectBootcamp.swift */,
+				564EAB142ADAA6660065DA4E /* CustomShapesBootcamp.swift */,
+				564EAB162ADAAC870065DA4E /* CustomShapesWithCurves.swift */,
+				564EAB182ADAB2E00065DA4E /* AnimatableDataBootcamp.swift */,
+				564EAB1A2ADABBE70065DA4E /* GenericsBootcamp.swift */,
+				56A77C222ADAC2E3007DEAFF /* ViewBuilderBootcamp.swift */,
+				566BF0642ADD464B002B0993 /* PreferenceKeyBootcamp */,
+				566BF06B2ADD58BF002B0993 /* CustomTabBar */,
+				568FC70E2ADE6E4600380B29 /* CustomNavigation */,
+				568FC71B2ADE872000380B29 /* UIViewRepresentableBootcamp.swift */,
+				568FC71D2ADE926300380B29 /* UIViewControllerRepresentableBootcamp.swift */,
+				567078EB2ADED110006C18D9 /* ProtocolsBootcamp.swift */,
+				567078ED2ADED825006C18D9 /* DependencyInjectionBootcamp.swift */,
+				569131BD2ADFD81800BCE179 /* AdvancedCombineBootcamp.swift */,
+				569131BF2ADFEB5F00BCE179 /* FuturesBootcamp.swift */,
+				569131C42ADFF1DC00BCE179 /* CustomBindingBootcamp.swift */,
+				569131C62AE012A900BCE179 /* ErrorAlertBootcamp.swift */,
+				56901BB72AE55B5C002F8DDC /* KeyPathBootcamp.swift */,
+				56E0A01E2AEE5DE800D1DF1C /* PropertyWrappersBootcamp.swift */,
 			);
 			path = SwiftUIAdvanced;
 			sourceTree = "<group>";
@@ -65,6 +172,19 @@
 				567A55F32ADA7E05004A3BBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		568FC70E2ADE6E4600380B29 /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				568FC70F2ADE6E7D00380B29 /* AppNavBarView.swift */,
+				568FC7152ADE73A500380B29 /* CustomNavView.swift */,
+				568FC7112ADE701C00380B29 /* CustomNavBarView.swift */,
+				568FC7132ADE724600380B29 /* CustomNavBarContainerView.swift */,
+				568FC7172ADE751700380B29 /* CustomNavLink.swift */,
+				568FC7192ADE782300380B29 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +257,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567A55EF2ADA7E02004A3BBA /* ContentView.swift in Sources */,
+				568FC7102ADE6E7D00380B29 /* AppNavBarView.swift in Sources */,
+				568FC71E2ADE926300380B29 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
+				568FC70A2ADDA13500380B29 /* TabBarItemsPreferenceKey.swift in Sources */,
+				56E0A01F2AEE5DE800D1DF1C /* PropertyWrappersBootcamp.swift in Sources */,
+				564EAB112ADA9CD60065DA4E /* CustomTransitionBootcamp.swift in Sources */,
+				568FC71C2ADE872000380B29 /* UIViewRepresentableBootcamp.swift in Sources */,
+				569131C02ADFEB5F00BCE179 /* FuturesBootcamp.swift in Sources */,
+				569131C52ADFF1DC00BCE179 /* CustomBindingBootcamp.swift in Sources */,
+				567A55FB2ADA7E59004A3BBA /* ViewModifiersBootcamp.swift in Sources */,
+				567A55FD2ADA834F004A3BBA /* CustomButtonStylesBootcamp.swift in Sources */,
+				569131BE2ADFD81800BCE179 /* AdvancedCombineBootcamp.swift in Sources */,
+				569131C72AE012A900BCE179 /* ErrorAlertBootcamp.swift in Sources */,
+				564EAB172ADAAC880065DA4E /* CustomShapesWithCurves.swift in Sources */,
 				567A55ED2ADA7E02004A3BBA /* SwiftUIAdvancedApp.swift in Sources */,
+				56A77C232ADAC2E3007DEAFF /* ViewBuilderBootcamp.swift in Sources */,
+				566BF06D2ADD620A002B0993 /* CustomTabBarView.swift in Sources */,
+				568FC7162ADE73A500380B29 /* CustomNavView.swift in Sources */,
+				56901BB82AE55B5C002F8DDC /* KeyPathBootcamp.swift in Sources */,
+				568FC7122ADE701C00380B29 /* CustomNavBarView.swift in Sources */,
+				564EAB1B2ADABBE70065DA4E /* GenericsBootcamp.swift in Sources */,
+				566BF06A2ADD5878002B0993 /* AppTabBarView.swift in Sources */,
+				568FC7182ADE751700380B29 /* CustomNavLink.swift in Sources */,
+				568FC71A2ADE782300380B29 /* CustomNavBarPreferenceKeys.swift in Sources */,
+				566BF0662ADD466A002B0993 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
+				564EAB192ADAB2E00065DA4E /* AnimatableDataBootcamp.swift in Sources */,
+				568FC70C2ADDA39C00380B29 /* TabBarItem.swift in Sources */,
+				564EAB132ADAA10A0065DA4E /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				567078EE2ADED825006C18D9 /* DependencyInjectionBootcamp.swift in Sources */,
+				566BF0632ADD3F18002B0993 /* PreferenceKeyBootcamp.swift in Sources */,
+				568FC7142ADE724600380B29 /* CustomNavBarContainerView.swift in Sources */,
+				567078EC2ADED110006C18D9 /* ProtocolsBootcamp.swift in Sources */,
+				566BF0682ADD4F9E002B0993 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				564EAB152ADAA6660065DA4E /* CustomShapesBootcamp.swift in Sources */,
+				568FC7082ADD9D1F00380B29 /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
